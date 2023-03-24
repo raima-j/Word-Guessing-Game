@@ -1,18 +1,18 @@
 import random,time
 import mysql.connector as ms
 
-user='root'
-password='password'
-host='localhost'
-db='tryGame'
+user=#user
+password=#password
+host=#mostly localhost
+db=#name of game db
 
-ConOb=ms.connect(host='localhost',user='root',password='password',db='tryGame')
+ConOb=ms.connect(host='###',user='###',password='###',db='###')
 
 if ConOb.is_connected():
     print ('\n\n-----------------------------------✨ ✨ ✨ WELCOME!✨ ✨ ✨------------------------------------')
     time.sleep(2)
 
-colours1=['blue','pink','red','grey','teal','gold','lime','tan']
+colours1=['blue','pink','red','grey','teal','gold','lime','tan']    #a simple list of colours
 colours2=['black','white','brown','crimson','orange']
 
 while True:
